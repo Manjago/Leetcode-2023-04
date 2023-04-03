@@ -18,10 +18,11 @@ import java.util.*;
 
 
 ---
+40, 30, 24, 21, 16
+
 40
-16, 21
-
-
+30, 16
+24, 21
 
 [5,1,4,2]
 6
@@ -38,14 +39,23 @@ import java.util.*;
 2, 4
 
 
+5, 4, 2, 1
+
+5, 1
+4, 2
+
  */
 public class LeetCode00881 {
 
     public static void main(String[] args) {
         int answer = new LeetCode00881().numRescueBoats(new int[] {21,40,16,24,30}, 50);
-        System.out.println(answer);
+        System.out.println("3=="+answer);
         answer = new LeetCode00881().numRescueBoats(new int[] {5,1,4,2}, 6);
-        System.out.println(answer);
+        System.out.println("2=="+answer);
+        answer = new LeetCode00881().numRescueBoats(new int[] {2695,22727,26302,27700,25273,26944,27691,16217,11739,21158}, 29998);
+        System.out.println("8=="+answer);
+        answer = new LeetCode00881().numRescueBoats(new int[] {3,2,3,2,2}, 6);
+        System.out.println("3=="+answer);
     }
 
     public int numRescueBoats(int[] people, int limit) {
@@ -53,14 +63,8 @@ public class LeetCode00881 {
         final List<Integer> semiFullBoats = new ArrayList<>();
 
         Arrays.sort(people);
-        int left = 0;
-        int right = people.length - 1;
-        while(left <= right) {
-            final boolean once = left == right;
-            fullBoats = getFullBoats(people, limit, fullBoats, semiFullBoats, right--);
-            if (!once) {
-                fullBoats = getFullBoats(people, limit, fullBoats, semiFullBoats, left++);
-            }
+        for(int i = people.length - 1; i >= 0; --i) {
+            fullBoats = getFullBoats(people, limit, fullBoats, semiFullBoats, i);
         }
 
         return fullBoats + semiFullBoats.size();
@@ -76,12 +80,7 @@ public class LeetCode00881 {
         for (int j = 0; j < semiFullBoats.size(); j++) {
             final int boat = semiFullBoats.get(j);
             final int newWeight = boat + humanWeight;
-            if (newWeight < limit) {
-                semiFullBoats.remove(j);
-                semiFullBoats.add(newWeight);
-                found = true;
-                break;
-            } else if (newWeight == limit) {
+            if (newWeight <= limit) {
                 semiFullBoats.remove(j);
                 ++fullBoats;
                 found = true;
@@ -97,7 +96,7 @@ public class LeetCode00881 {
             }
         }
 
-        if (i < people.length - 1) {
+        if (i > 0) {
             semiFullBoats.sort((o1, o2) -> -o1.compareTo(o2));
         }
         return fullBoats;
