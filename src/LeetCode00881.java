@@ -59,46 +59,29 @@ public class LeetCode00881 {
     }
 
     public int numRescueBoats(int[] people, int limit) {
-        int fullBoats = 0;
-        final List<Integer> semiFullBoats = new ArrayList<>();
 
         Arrays.sort(people);
-        for(int i = people.length - 1; i >= 0; --i) {
-            fullBoats = getFullBoats(people, limit, fullBoats, semiFullBoats, i);
-        }
-
-        return fullBoats + semiFullBoats.size();
-    }
-
-    private static int getFullBoats(int[] people, int limit, int fullBoats, List<Integer> semiFullBoats, int i) {
-        final int humanWeight = people[i];
-        if (humanWeight > limit) {
-            throw new IllegalArgumentException("Human [" + i + "] has too big weight " + humanWeight);
-        }
-
-        boolean found = false;
-        for (int j = 0; j < semiFullBoats.size(); j++) {
-            final int boat = semiFullBoats.get(j);
-            final int newWeight = boat + humanWeight;
-            if (newWeight <= limit) {
-                semiFullBoats.remove(j);
-                ++fullBoats;
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) {
-            if (humanWeight == limit) {
-                ++fullBoats;
+        int bigIndex = people.length - 1;
+        int smallIndex = 0;
+        int boats = 0;
+        while(smallIndex < bigIndex) {
+            final int small = people[smallIndex];
+            final int big = people[bigIndex];
+            if ((big + small) > limit) {
+                ++boats;
+                --bigIndex;
             } else {
-                semiFullBoats.add(humanWeight);
+                --bigIndex;
+                ++smallIndex;
+                ++boats;
             }
         }
 
-        if (i > 0) {
-            semiFullBoats.sort((o1, o2) -> -o1.compareTo(o2));
+        if (smallIndex == bigIndex) {
+            return boats  + 1;
+        } else {
+            return boats;
         }
-        return fullBoats;
     }
+
 }
