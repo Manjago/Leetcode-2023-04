@@ -13,6 +13,20 @@ public class LeetCode02439 {
     public int minimizeArrayValue(int[] nums) {
         return minimizeArrayValue(nums, 0, nums.length);
     }
+
+    /*
+
+    1 2 3 4 5 6
+    0 1 2 3 4 5
+
+    [3,
+    [3, 6)
+    [0, 3)
+
+
+
+     */
+
     private int minimizeArrayValue(int[] nums, int leftInc, int rightEx) {
         final int n = rightEx - leftInc;
         switch (n) {
@@ -22,8 +36,8 @@ public class LeetCode02439 {
             default: {
                 // 0,1,2 leftInc = 0, rightEx = 3 n = 3 mid = 1
                 int mid = n / 2;
-                int leftMin = minimizeArrayValue(nums, leftInc, mid);
-                int rightMin = minimizeArrayValue(nums, mid, rightEx);
+                int leftMin = minimizeArrayValue(nums, leftInc,leftInc + mid);
+                int rightMin = minimizeArrayValue(nums, leftInc + mid, rightEx);
                 return smartMin(leftMin, rightMin);
             }
         }
