@@ -13,6 +13,7 @@
 | - 2023-04-09                            | [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) |
 | [+ 2023-04-10](src/LeetCode00021.java)  | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                |
 | [+ 2023-04-11](src/LeetCode02390.java)  | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)                       |
+| - 2023-04-12                            | [71. Simplify Path](https://leetcode.com/problems/simplify-path) |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
