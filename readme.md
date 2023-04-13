@@ -14,6 +14,7 @@
 | [+ 2023-04-10](src/LeetCode00021.java)  | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                |
 | [+ 2023-04-11](src/LeetCode02390.java)  | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)                       |
 | [+ 2023-04-12](src/LeetCode00071.java)  | [71. Simplify Path](https://leetcode.com/problems/simplify-path)                                                        |
+| [+ 2023-04-13](src/LeetCode00946.java)  | [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
