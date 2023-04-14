@@ -15,6 +15,7 @@
 | [+ 2023-04-11](src/LeetCode02390.java)  | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)                       |
 | [+ 2023-04-12](src/LeetCode00071.java)  | [71. Simplify Path](https://leetcode.com/problems/simplify-path)                                                        |
 | [+ 2023-04-13](src/LeetCode00946.java)  | [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                |
+| [+ 2023-04-14](src/LeetCode00516.java)  | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)                  |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
