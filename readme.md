@@ -16,6 +16,7 @@
 | [+ 2023-04-12](src/LeetCode00071.java)  | [71. Simplify Path](https://leetcode.com/problems/simplify-path)                                                        |
 | [+ 2023-04-13](src/LeetCode00946.java)  | [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)                                |
 | [+ 2023-04-14](src/LeetCode00516.java)  | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)                  |
+| - 2023-04-15                            | [2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)         |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
