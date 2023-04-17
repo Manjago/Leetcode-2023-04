@@ -18,6 +18,7 @@
 | [+ 2023-04-14](src/LeetCode00516.java)  | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)                                                      |
 | - 2023-04-15                            | [2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)                                             |
 | - 2023-04-16                            | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) |
+| [+ 2023-04-17](src/LeetCode01431.java)  | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)                                    |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
