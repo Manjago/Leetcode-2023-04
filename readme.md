@@ -19,6 +19,7 @@
 | - 2023-04-15                            | [2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)                                             |
 | - 2023-04-16                            | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) |
 | [+ 2023-04-17](src/LeetCode01431.java)  | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)                                    |
+| [+ 2023-04-18](src/LeetCode01768)       | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                 |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
