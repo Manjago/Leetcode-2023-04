@@ -21,6 +21,7 @@
 | [+ 2023-04-17](src/LeetCode01431.java)  | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)                                    |
 | [+ 2023-04-18](src/LeetCode01768)       | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                 |
 | [+ 2023-04-19](src/LeetCode01372)       | [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)                                           |
+| [+ 2023-04-20](src/LeetCode00662)       | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
