@@ -22,6 +22,7 @@
 | [+ 2023-04-18](src/LeetCode01768)       | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                 |
 | [+ 2023-04-19](src/LeetCode01372)       | [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)                                           |
 | [+ 2023-04-20](src/LeetCode00662)       | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
+| - 2023-04-21                            | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)                                                                                |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
