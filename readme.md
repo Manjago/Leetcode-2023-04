@@ -23,6 +23,7 @@
 | [+ 2023-04-19](src/LeetCode01372)       | [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)                                           |
 | [+ 2023-04-20](src/LeetCode00662)       | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
 | - 2023-04-21                            | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)                                                                                |
+| - 2023-04-22                            | [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)              |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
