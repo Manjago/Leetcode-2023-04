@@ -24,7 +24,8 @@
 | [+ 2023-04-20](src/LeetCode00662)       | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
 | - 2023-04-21                            | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)                                                                                |
 | - 2023-04-22                            | [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)              |
-| - 2023-04-23                            | [1416. Restore The Array](https://leetcode.com/problems/restore-the-array/)              |
+| - 2023-04-23                            | [1416. Restore The Array](https://leetcode.com/problems/restore-the-array/)                                                                                 |
+| [+ 2023-04-24](src/LeetCode01046)       | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                                                                                  |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
