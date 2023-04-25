@@ -26,6 +26,7 @@
 | - 2023-04-22                            | [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)              |
 | - 2023-04-23                            | [1416. Restore The Array](https://leetcode.com/problems/restore-the-array/)                                                                                 |
 | [+ 2023-04-24](src/LeetCode01046)       | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                                                                                  |
+| [+ 2023-04-25](src/LeetCode02336)       | [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)                                                     |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
