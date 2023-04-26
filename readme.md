@@ -19,14 +19,15 @@
 | - 2023-04-15                            | [2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)                                             |
 | - 2023-04-16                            | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) |
 | [+ 2023-04-17](src/LeetCode01431.java)  | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)                                    |
-| [+ 2023-04-18](src/LeetCode01768)       | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                 |
-| [+ 2023-04-19](src/LeetCode01372)       | [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)                                           |
-| [+ 2023-04-20](src/LeetCode00662)       | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
+| [+ 2023-04-18](src/LeetCode01768.java)  | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                 |
+| [+ 2023-04-19](src/LeetCode01372.java)  | [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)                                           |
+| [+ 2023-04-20](src/LeetCode00662.java)  | [662. Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)                                                             |
 | - 2023-04-21                            | [879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes/)                                                                                |
 | - 2023-04-22                            | [1312. Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)              |
 | - 2023-04-23                            | [1416. Restore The Array](https://leetcode.com/problems/restore-the-array/)                                                                                 |
-| [+ 2023-04-24](src/LeetCode01046)       | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                                                                                  |
-| [+ 2023-04-25](src/LeetCode02336)       | [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)                                                     |
+| [+ 2023-04-24](src/LeetCode01046.java)  | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                                                                                  |
+| [+ 2023-04-25](src/LeetCode02336.java)  | [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)                                                     |
+| [+ 2023-04-26](src/LeetCode00258.java)  | [258. Add Digits](https://leetcode.com/problems/add-digits/)                                                                                                |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
