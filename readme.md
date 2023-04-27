@@ -28,6 +28,7 @@
 | [+ 2023-04-24](src/LeetCode01046.java)  | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight)                                                                                  |
 | [+ 2023-04-25](src/LeetCode02336.java)  | [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/)                                                     |
 | [+ 2023-04-26](src/LeetCode00258.java)  | [258. Add Digits](https://leetcode.com/problems/add-digits/)                                                                                                |
+| [-2023-04-27](src/LeetCode00319.java)   | [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)                                                                                          |
 
 | Week                            | Task                                                                              |
 |---------------------------------|-----------------------------------------------------------------------------------|
